@@ -29,4 +29,5 @@ func (r *RegisterController)Post(){
 	}
 	//用户注册成功
 	r.TplName="login.html"
+
 }
