@@ -4,6 +4,7 @@ import (
 	"DataCertProject01/db_mysql"
 	"crypto/md5"
 	"encoding/hex"
+	"fmt"
 )
 
 type User struct {
@@ -31,8 +32,10 @@ func (u User) SaveUser()(int64 , error) {
 func (u User) QueryUser()(*User,error) {
 	hashMd5 := md5.New()
 	hashMd5.Write([]byte(u.Password))
+	fmt.Println("用户电话",u.Phone)
 	bytes := hashMd5.Sum(nil)
 	u.Password = hex.EncodeToString(bytes)
+	fmt.Println("用户密码",u.Password)
 	row :=db_mysql.Db.QueryRow("select phone from user where phone = ? and password = ?",
 		u.Phone,u.Password)
 	err := row.Scan(&u.Phone)

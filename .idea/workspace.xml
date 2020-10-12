@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a186efc3-62e3-4935-b458-3b631d6f4039" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/uploadcontroller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/Chain-5eb1a.chunk.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/UserChart-515e7.chunk.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/UserLoginForm-86fb5.chunk.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/b.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/poll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/userRegisterController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userRegisterController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/HomeNew-f8f62.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/UserRegistryForm-ef59c.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/UserRegistryForm-ef59c.chunk.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app-f03c3be68c19ce58d4ff.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/app-f03c3be68c19ce58d4ff.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/common-f03c3be68c19ce58d4ff.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/common-f03c3be68c19ce58d4ff.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/data-set.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/data-set.min.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/es6-shim-8e9077312e.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/es6-shim-8e9077312e.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/hm(1).js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/hm.js(1).下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/hm(2).js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/hm.js(2).下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/hm.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/hm.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-02053ebe83.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-02053ebe83.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/pc_nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/pc_nb.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/push.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/push.js.下载" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/set-cookies" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/set-cookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.html" afterDir="false" />
@@ -44,12 +63,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataCertProject001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\GOProjects\src\DataCertProject01\views" />
       <recent name="D:\Project\GOProjects\src\DataCertProject01\static\js" />
+      <recent name="D:\Project\GOProjects\src\DataCertProject01\views" />
+      <recent name="D:\Project\GOProjects\src\DataCertProject01\controllers" />
       <recent name="D:\Project\GOProjects\src\DataCertProject01\static\img" />
       <recent name="D:\Project\GOProjects\src\DataCertProject01\static\css" />
     </key>
@@ -102,26 +122,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="605" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1602423910412" />
-    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1602465391864">
+    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1602504820597">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602465391864" />
-    <state width="1537" height="526" key="GridCell.Tab.0.bottom" timestamp="1602479424242">
+    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602504820597" />
+    <state width="1493" height="285" key="GridCell.Tab.0.bottom" timestamp="1602515079892">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="526" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602479424242" />
-    <state width="1537" height="526" key="GridCell.Tab.0.center" timestamp="1602479424242">
+    <state width="1493" height="285" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602515079892" />
+    <state width="1493" height="285" key="GridCell.Tab.0.center" timestamp="1602515079892">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="526" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602479424242" />
-    <state width="1537" height="526" key="GridCell.Tab.0.left" timestamp="1602479424241">
+    <state width="1493" height="285" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602515079892" />
+    <state width="1493" height="285" key="GridCell.Tab.0.left" timestamp="1602515079891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="526" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602479424241" />
-    <state width="1537" height="526" key="GridCell.Tab.0.right" timestamp="1602479424242">
+    <state width="1493" height="285" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602515079891" />
+    <state width="1493" height="285" key="GridCell.Tab.0.right" timestamp="1602515079892">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="526" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602479424242" />
+    <state width="1493" height="285" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602515079892" />
     <state width="1537" height="286" key="GridCell.Tab.1.bottom" timestamp="1602460737261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -138,9 +158,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1537" height="286" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1602460737261" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602419101473">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602503543760">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602419101473" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602503543760" />
   </component>
 </project>
